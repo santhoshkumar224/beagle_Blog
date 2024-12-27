@@ -1,0 +1,81 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Overall Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Top Section */
+.top-section {
+    padding: 20px;
+}
+
+.top-section h1 {
+    font-size: 2.5rem;
+}
+
+/* Paragraph with introduction text has a border */
+.top-section p:first-of-type {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #000; /* Neutral black border */
+    max-width: 80%; /* Optional: Limits the width of the paragraph */
+    margin-left: 0; /* Left-align the paragraph */
+    margin-right: 0; /* Left-align the paragraph */
+}
+
+/* Read More Link (no border applied here) */
+.read-more {
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Image Section */
+.image-section {
+    padding: 30px;
+}
+
+.beagle-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+}
+
+.more-images {
+    text-decoration: none;
+}
+
+.more-images:hover {
+    text-decoration: underline;
+}
+
+/* Trivia Section */
+.trivia-section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.trivia-section h2 {
+    font-size: 2rem;
+}
+
+.trivia-list {
+    list-style-position: inside;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.trivia-list li {
+    margin-bottom: 10px;
+}
